@@ -6,7 +6,7 @@ module.exports = merge(common, {
     plugins: [
         new webpack.DefinePlugin({
             SNOWPLOW_COLLECTOR_URL: JSON.stringify(
-                "https://com-magento-prod1.mini.snplow.net",
+                "https://com-magento-qa1.collector.snplow.net",
             ),
             SNOWPLOW_COLLECTOR_PATH: JSON.stringify(
                 "/com.snowplowanalytics.snowplow/tp2",
